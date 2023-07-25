@@ -1,37 +1,37 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/iteration-app/node_modules
+/iteration-app/.pnp
+/iteration-app/.pnp.js
 
 # testing
-/coverage
+/iteration-app//coverage
 
 # next.js
-/.next/
-/out/
+/iteration-app/.next/
+/iteration-app/out/
 
 # production
-/build
+/iteration-app/build
 
 # misc
-.DS_Store
-*.pem
+/iteration-app/.DS_Store
+/iteration-app/*.pem
 
 # debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/iteration-app/npm-debug.log*
+/iteration-app/yarn-debug.log*
+/iteration-app/yarn-error.log*
 
 # local env files
-.env*.local
+/iteration-app/.env*.local
 
 # vercel
-.vercel
+/iteration-app/.vercel
 
 # typescript
-*.tsbuildinfo
-next-env.d.ts
+/iteration-app/*.tsbuildinfo
+/iteration-app/next-env.d.ts
 
-/target
+/wasm/target
